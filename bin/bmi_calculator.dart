@@ -29,6 +29,7 @@
       'kategori': kategori,
     });
   }
+
 void main() {
   List<Map<String, dynamic>> riwayat = [];
 
@@ -39,7 +40,6 @@ void main() {
 
   // Tampilkan riwayat menggunakan perulangan
   tampilkanRiwayat(riwayat);
-
 }
 
 void tampilkanRiwayat(List<Map<String, dynamic>> riwayat) {
